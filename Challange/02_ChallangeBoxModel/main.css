@@ -1,0 +1,66 @@
+body
+{
+    margin: 0;
+}
+
+.superior
+{
+    /* border: solid 1px blue; */
+    background: blue;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inferior
+{
+    /* border: solid 1px blue; */
+    background: blue;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cuadrado
+{
+    width: 30%;
+    height: 90%;
+    /* border: solid 1px red; */
+    background: white;
+}
+
+.rojocuad
+{
+    border: solid 1px;
+    width: 90%;
+    height: 90%;
+    background: red;
+}
+
+.rectangulo
+{
+    width: 60%;
+    height: 90%;
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.rojorect
+{
+    border: solid 1px;
+    width: 90%;
+    height: 90%;
+    background: red;
+}
+
+.abajo
+{
+    display: flex;
+    align-items: flex-end;
+}

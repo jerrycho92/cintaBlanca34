@@ -1,0 +1,41 @@
+<!-- Replicar el sitio de google.com.mx utilizando HTML y CSS -->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./main.css">
+    <title>Google México</title>
+</head>
+
+<body>
+    <!-- Parte superior de la página -->
+    <div class="superior">
+        <div class="menu">
+            <!-- Vínculos para las opciones del menú superior -->
+            <a href="https://www.google.com/intl/es-419/gmail/about/">Gmail</a>
+            <a href="https://www.google.com.mx/imghp?hl=es">Imágenes</a>
+            <!-- A las imagenes se les especifico el tamaño para que ajustaran con el texto -->
+            <a href="https://apps.google.com"><img src="./assets/img_opciones.png" 
+                alt="Opciones" height="25" width="25" title="Opciones"></a>
+            <a href="https://myaccount.google.com"><img src="./assets/img_profile.jpg" alt="Profile Pic" height="25" width="25" class="profpic" title="Mi cuenta"> </a>
+            <!-- La imagen se declara como clase para que en CSS se le aplique el estilo redondeado -->
+        </div>
+    <!-- Parte central de la página -->
+        <div class="central">
+            <img src="./assets/img_principal.png" alt="Google México" title="Día de Muertos" height="200" width="600">
+        </div>
+    <!-- Parte de la barra de busqueda -->
+        <div class="busqueda">
+            <input type="text" placeholder="Buscar con Google México">
+        </div> 
+    <!-- Parte de opciones de busqueda -->
+        <div class="opcionesbusqueda">
+            <a href="https://www.google.com.mx/"><button>Buscar con Google</button></a>
+            <a href="https://es.wikipedia.org/wiki/Voy_a_tener_suerte"><button>Me siento con suerte</button></a>
+        </div> 
+    </div>
+</body>
+
+</html>

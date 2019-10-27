@@ -1,0 +1,77 @@
+/* Diseño del menu superior */
+
+a /* Estilo para todas las etiquetas a del html */
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.superior
+{
+    border: solid 5px #000000;
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.menu
+{
+    text-align: right;
+    border: solid 5px #ee2525;
+}
+
+.menu > a /* Estilo para todas las a que se encuentran dentro de la clase menú */
+{
+    margin: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu > img
+{
+    margin: 5px;
+}
+
+.profpic
+{
+    border-radius: 80%;
+}
+
+.central
+{
+    text-align: center;
+    border: solid 5px #83b4ec;
+    margin-top: 50px;
+}
+
+.busqueda
+{
+    text-align: center;
+    border: solid 5px #f5b400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.busqueda > input
+{
+    width: 482px;
+    height: 44px;
+    border-radius: 20px;
+    border: solid 0.5px #a7a4a4;
+}
+
+.opcionesbusqueda
+{
+    text-align: center;
+    border: solid 5px #0e7a44;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.opcionesbusqueda > a button
+{
+    padding: 10px;
+    font-size: 14;
+    margin: 0 2px;
+    background-color: #f1f1f1;
+}

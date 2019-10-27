@@ -1,0 +1,27 @@
+/* margin y padding */
+/* margin es el espacio que se genera de mi borde hacia afuera
+padding es el espacio que se genera de mi borde hacia adentro */
+
+.navegacion
+{
+    border: solid 5px #194e33;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.contenido
+{
+    border: solid 5px #bdc957;
+    width: 100%;
+    height: 100px;
+}
+
+a
+{
+    border: solid 1px black;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* padding-left: 20px; */
+}

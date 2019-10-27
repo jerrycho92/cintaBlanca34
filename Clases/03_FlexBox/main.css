@@ -1,0 +1,90 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Cuadro del lado izquierdo */
+.padre
+{
+    border: solid 10px blue;
+    widows: 100%;
+    height: 100vh;
+    /* vh es el 100% de la pantalla */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column;
+    Rota la pantalla 90 grados */
+}
+
+.hijo1
+{
+    border: solid 5px red;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hija1
+{
+    border: solid 5px green;
+    width: 15%;
+    height: 15%;
+}
+
+.hija2
+{
+    border: solid 5px green;
+    width: 15%;
+    height: 15%;
+}
+
+.hija3
+{
+    border: solid 5px green;
+    width: 15%;
+    height: 15%;
+}
+
+/* Cuadro del lado derecho */
+.hijo2
+{
+    border: solid 5px green;
+    width: 30%;
+    height: 30%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+}
+
+.hija4
+{
+    border: solid 5px black;
+    width: 15%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.hija5
+{
+    border: solid 5px black;
+    width: 15%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.hija6
+{
+    border: solid 5px black;
+    width: 15%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
